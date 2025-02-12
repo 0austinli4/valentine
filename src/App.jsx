@@ -15,23 +15,23 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
+      "Riri are you really sure?",
+      "Riri please!",
+      "RIRIIRIII!",
+      "man",
+      "bruh",
+      "riri cmon",
+      "ur so mean",
+      "pleaseeeeeeee",
+      "i'll give you massage everyday",
+      ">:(",
+      "riri this is not funny anymore",
+      "i'm gonna cry",
+      "ririiiiiiiiiiiiiiiiiiii",
       "You're breaking my heart ;(",
       "Is that your final answer?",
       "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      " : (",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -41,9 +41,38 @@ export default function Page() {
     <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
+          <div className="fixed inset-0 pointer-events-none z-0">
+            <img 
+              src="/src/assets/IMG_0955.JPG" 
+              alt="Memory 1" 
+              className="absolute top-[10%] left-[5%] w-48 h-48 object-cover rotate-[-12deg] shadow-lg"
+            />
+            <img 
+              src="/src/assets/IMG_1326.JPG" 
+              alt="Memory 2" 
+              className="absolute top-[60%] right-[10%] w-56 h-56 object-cover rotate-[8deg] shadow-lg"
+            />
+            <img 
+              src="/src/assets/IMG_3396.JPG" 
+              alt="Memory 3" 
+              className="absolute top-[30%] left-[70%] w-40 h-40 object-cover rotate-[15deg] shadow-lg"
+            />
+            <img 
+              src="/src/assets/IMG_7788.JPG" 
+              alt="Memory 4" 
+              className="absolute bottom-[20%] left-[15%] w-52 h-52 object-cover rotate-[-5deg] shadow-lg"
+            />
+            <img 
+              src="/src/assets/IMG_2711 2.JPG" 
+              alt="Memory 5" 
+              className="absolute bottom-[10%] right-[25%] w-44 h-44 object-cover rotate-[10deg] shadow-lg"
+            />
+          </div>
+          <div className="relative z-10 flex flex-col items-center justify-center">
+            <img src="https://media.giphy.com/media/FqHTyEllkHxAY/giphy.gif" alt="Charlie Brown Valentine's Day GIF" />
+            <div className="text-4xl md:text-6xl font-bold my-4 text-white">
+              Yayyyyy I LOVE YOUOOUUUU!
+            </div>
           </div>
         </>
       ) : (
@@ -58,10 +87,11 @@ export default function Page() {
           />
           <img
             className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media.giphy.com/media/MW27DzJThGD3a/giphy.gif"
+            alt="Charlie Brown Valentine's Day GIF"
           />
-          <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+          <h1 className="text-4xl md:text-6xl my-4 text-center text-white">
+            Dear Riri, will you be my Valentine?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
